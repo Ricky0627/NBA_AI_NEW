@@ -56,68 +56,34 @@
                 </div>
                 <span class="h5 mb-0 brand-text">NBA AI 戰情中心</span>
             </div>
-            <span class="text-muted small">Updated: 2026-01-15 22:48</span>
+            <span class="text-muted small">Updated: 2026-01-15 23:06</span>
         </div>
     </nav>
 
     <div class="container pb-5">
-        
         <div class="row g-3 mb-4">
-            <div class="col-md-4">
-                <div class="header-stat-box">
-                    <div class="d-flex align-items-center">
-                        <div class="header-stat-icon bg-info bg-opacity-10 text-info"><i class="fas fa-calendar-alt"></i></div>
-                        <div><div class="hs-lbl">昨日勝率</div><div class="hs-val">28.6% <small class='text-muted'>(01/14)</small></div></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="header-stat-box">
-                    <div class="d-flex align-items-center">
-                        <div class="header-stat-icon bg-warning bg-opacity-10 text-warning"><i class="fas fa-fire"></i></div>
-                        <div><div class="hs-lbl">近 5 天勝率</div><div class="hs-val">53.6%</div></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="header-stat-box">
-                    <div class="d-flex align-items-center">
-                        <div class="header-stat-icon bg-success bg-opacity-10 text-success"><i class="fas fa-trophy"></i></div>
-                        <div><div class="hs-lbl">總回測勝率</div><div class="hs-val">62.4%</div></div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-4"><div class="header-stat-box"><div class="d-flex align-items-center"><div class="header-stat-icon bg-info bg-opacity-10 text-info"><i class="fas fa-calendar-alt"></i></div><div><div class="hs-lbl">昨日勝率</div><div class="hs-val">28.6% <small class='text-muted'>(01/14)</small></div></div></div></div></div>
+            <div class="col-md-4"><div class="header-stat-box"><div class="d-flex align-items-center"><div class="header-stat-icon bg-warning bg-opacity-10 text-warning"><i class="fas fa-fire"></i></div><div><div class="hs-lbl">近 5 天勝率</div><div class="hs-val">53.6%</div></div></div></div></div>
+            <div class="col-md-4"><div class="header-stat-box"><div class="d-flex align-items-center"><div class="header-stat-icon bg-success bg-opacity-10 text-success"><i class="fas fa-trophy"></i></div><div><div class="hs-lbl">總回測勝率</div><div class="hs-val">62.4%</div></div></div></div></div>
         </div>
 
         <div class="row g-4 mb-4">
             <div class="col-lg-6">
                 <div class="card h-100">
-                    <div class="card-header">
-                        <span><i class="fas fa-crosshairs text-primary me-2"></i>單場策略 (Top 5)</span>
-                        <a href="#" class="small text-decoration-none" onclick="showAllStrategies('single'); return false;">查看全部</a>
-                    </div>
+                    <div class="card-header"><span><i class="fas fa-crosshairs text-primary me-2"></i>單場策略 (Top 5)</span><a href="#" class="small text-decoration-none" onclick="showAllStrategies('single'); return false;">查看全部</a></div>
                     <div class="card-body p-0"><table class='table table-sm table-hover mb-0'><tbody><tr class='clickable' onclick="showDetail('single', '7. 深盤受讓 (Underdog & Spread>=8.5)')"><td>7. 深盤受讓 </td><td class='text-end fw-bold text-success'>31.67%</td></tr><tr class='clickable' onclick="showDetail('single', '3. 大分差盤口 (Spread >= 7.5)')"><td>3. 大分差盤口 </td><td class='text-end fw-bold text-success'>21.26%</td></tr><tr class='clickable' onclick="showDetail('single', '9. 高信心受讓 (Conf>60% & Underdog)')"><td>9. 高信心受讓 </td><td class='text-end fw-bold text-success'>20.53%</td></tr><tr class='clickable' onclick="showDetail('single', '2. 信心 > 65% (Very High Conf)')"><td>2. 信心 > 65% </td><td class='text-end fw-bold text-success'>18.45%</td></tr><tr class='clickable' onclick="showDetail('single', '1. 信心 > 60% (High Conf)')"><td>1. 信心 > 60% </td><td class='text-end fw-bold text-success'>13.36%</td></tr></tbody></table></div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="card h-100">
-                    <div class="card-header">
-                        <span><i class="fas fa-layer-group text-success me-2"></i>串關策略 (Top 5)</span>
-                        <a href="#" class="small text-decoration-none" onclick="showAllStrategies('multi'); return false;">查看全部</a>
-                    </div>
+                    <div class="card-header"><span><i class="fas fa-layer-group text-success me-2"></i>串關策略 (Top 5)</span><a href="#" class="small text-decoration-none" onclick="showAllStrategies('multi'); return false;">查看全部</a></div>
                     <div class="card-body p-0"><table class='table table-sm table-hover mb-0'><tbody><tr class='clickable' onclick="showDetail('multi', '7. 深盤受讓 (Underdog & Spread>=8.5)')"><td>7. 深盤受讓 </td><td class='text-end fw-bold text-success'>83.75%</td></tr><tr class='clickable' onclick="showDetail('multi', '3. 大分差盤口 (Spread >= 7.5)')"><td>3. 大分差盤口 </td><td class='text-end fw-bold text-success'>44.46%</td></tr><tr class='clickable' onclick="showDetail('multi', '2. 信心 > 65% (Very High Conf)')"><td>2. 信心 > 65% </td><td class='text-end fw-bold text-success'>39.81%</td></tr><tr class='clickable' onclick="showDetail('multi', '9. 高信心受讓 (Conf>60% & Underdog)')"><td>9. 高信心受讓 </td><td class='text-end fw-bold text-success'>34.32%</td></tr><tr class='clickable' onclick="showDetail('multi', '6. 買受讓方 (Underdogs)')"><td>6. 買受讓方 </td><td class='text-end fw-bold text-success'>31.25%</td></tr></tbody></table></div>
                 </div>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-header bg-white">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-calendar-day text-danger me-2"></i>
-                    <h6 class="mb-0 fw-bold">今日賽事預測 <span class="badge bg-light text-muted fw-normal ms-2">點擊藍色 +X 按鈕查看詳情</span></h6>
-                </div>
-                <input type="text" id="searchPred" class="form-control form-control-sm w-auto" placeholder="搜尋球隊...">
-            </div>
+            <div class="card-header bg-white"><div class="d-flex align-items-center"><i class="fas fa-calendar-day text-danger me-2"></i><h6 class="mb-0 fw-bold">今日賽事預測 <span class="badge bg-light text-muted fw-normal ms-2">點擊藍色 +X 按鈕查看詳情</span></h6></div><input type="text" id="searchPred" class="form-control form-control-sm w-auto" placeholder="搜尋球隊..."></div>
             <div class="card-body p-0">
                 <div class="table-responsive">
                     <table class="table table-hover align-middle mb-0" id="predTable">
@@ -125,9 +91,9 @@
                         <tbody>
         <tr class="">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('ATL'); return false;">ATL</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('POR'); return false;">POR</a></td>
-            <td><span class="badge bg-light text-dark border">3.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('ATL', 'POR', '[{&quot;Spread&quot;: 3.5, &quot;Prob&quot;: &quot;50.7%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 53% 31/58)</span>&quot;}, {&quot;Spread&quot;: 4.5, &quot;Prob&quot;: &quot;50.8%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}, {&quot;Spread&quot;: 5.5, &quot;Prob&quot;: &quot;50.5%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('ATL'); return false;">ATL</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('POR'); return false;">POR</a></td>
+            <td><span class="badge bg-light text-dark border">3.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('ATL', 'POR', '%5B%7B%22Spread%22%3A%203.5%2C%20%22Prob%22%3A%20%2250.7%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2053%25%2031/58%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%204.5%2C%20%22Prob%22%3A%20%2250.8%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%205.5%2C%20%22Prob%22%3A%20%2250.5%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">22 / 37</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="50.7%">
@@ -141,9 +107,9 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('BOS'); return false;">BOS</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('MIA'); return false;">MIA</a></td>
-            <td><span class="badge bg-light text-dark border">1.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('BOS', 'MIA', '[{&quot;Spread&quot;: 1.5, &quot;Prob&quot;: &quot;44.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 BOS (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;badge badge-danger me-1\&quot;>❌Strat8:淺盤讓分(-4%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 52% 33/63)</span>&quot;}, {&quot;Spread&quot;: 2.5, &quot;Prob&quot;: &quot;41.9%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 BOS (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;badge badge-danger me-1\&quot;>❌Strat8:淺盤讓分(-4%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 52% 33/63)</span>&quot;}, {&quot;Spread&quot;: 0.5, &quot;Prob&quot;: &quot;44.6%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 BOS (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;badge badge-danger me-1\&quot;>❌Strat8:淺盤讓分(-4%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 52% 33/63)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('BOS'); return false;">BOS</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('MIA'); return false;">MIA</a></td>
+            <td><span class="badge bg-light text-dark border">1.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('BOS', 'MIA', '%5B%7B%22Spread%22%3A%201.5%2C%20%22Prob%22%3A%20%2244.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20BOS%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9D%8CStrat8%3A%E6%B7%BA%E7%9B%A4%E8%AE%93%E5%88%86%28-4%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2052%25%2033/63%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%202.5%2C%20%22Prob%22%3A%20%2241.9%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20BOS%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9D%8CStrat8%3A%E6%B7%BA%E7%9B%A4%E8%AE%93%E5%88%86%28-4%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2052%25%2033/63%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%200.5%2C%20%22Prob%22%3A%20%2244.6%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20BOS%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9D%8CStrat8%3A%E6%B7%BA%E7%9B%A4%E8%AE%93%E5%88%86%28-4%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2052%25%2033/63%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">6 / 9</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="44.4%">
@@ -157,9 +123,9 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('CHO'); return false;">CHO</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('LAL'); return false;">LAL</a></td>
-            <td><span class="badge bg-light text-dark border">-5.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('CHO', 'LAL', '[{&quot;Spread&quot;: -5.5, &quot;Prob&quot;: &quot;34.0%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 CHO (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;badge badge-silver me-1\&quot;>🥈Strat9:高信受讓(20%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 70% 14/20)</span>&quot;}, {&quot;Spread&quot;: -6.5, &quot;Prob&quot;: &quot;32.3%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 CHO (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;badge badge-silver me-1\&quot;>🥈Strat9:高信受讓(20%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 70% 14/20)</span>&quot;}, {&quot;Spread&quot;: -4.5, &quot;Prob&quot;: &quot;34.3%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 CHO (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;badge badge-silver me-1\&quot;>🥈Strat9:高信受讓(20%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 70% 14/20)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('CHO'); return false;">CHO</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('LAL'); return false;">LAL</a></td>
+            <td><span class="badge bg-light text-dark border">-5.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('CHO', 'LAL', '%5B%7B%22Spread%22%3A%20-5.5%2C%20%22Prob%22%3A%20%2234.0%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20CHO%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-silver%20me-1%5C%22%3E%F0%9F%A5%88Strat9%3A%E9%AB%98%E4%BF%A1%E5%8F%97%E8%AE%93%2820%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2070%25%2014/20%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-6.5%2C%20%22Prob%22%3A%20%2232.3%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20CHO%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-silver%20me-1%5C%22%3E%F0%9F%A5%88Strat9%3A%E9%AB%98%E4%BF%A1%E5%8F%97%E8%AE%93%2820%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2070%25%2014/20%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-4.5%2C%20%22Prob%22%3A%20%2234.3%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20CHO%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-silver%20me-1%5C%22%3E%F0%9F%A5%88Strat9%3A%E9%AB%98%E4%BF%A1%E5%8F%97%E8%AE%93%2820%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2070%25%2014/20%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">2 / 22</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="34.0%">
@@ -173,9 +139,9 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('MEM'); return false;">MEM</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('ORL'); return false;">ORL</a></td>
-            <td><span class="badge bg-light text-dark border">-4.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('MEM', 'ORL', '[{&quot;Spread&quot;: -4.5, &quot;Prob&quot;: &quot;49.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}, {&quot;Spread&quot;: -6.5, &quot;Prob&quot;: &quot;47.6%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}, {&quot;Spread&quot;: -5.5, &quot;Prob&quot;: &quot;49.0%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('MEM'); return false;">MEM</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('ORL'); return false;">ORL</a></td>
+            <td><span class="badge bg-light text-dark border">-4.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('MEM', 'ORL', '%5B%7B%22Spread%22%3A%20-4.5%2C%20%22Prob%22%3A%20%2249.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-6.5%2C%20%22Prob%22%3A%20%2247.6%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-5.5%2C%20%22Prob%22%3A%20%2249.0%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">29 / 12</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="49.4%">
@@ -189,9 +155,9 @@
         
         <tr class="highlight-row">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('MIL'); return false;">MIL</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('SAS'); return false;">SAS</a></td>
-            <td><span class="badge bg-light text-dark border">-6.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('MIL', 'SAS', '[{&quot;Spread&quot;: -6.5, &quot;Prob&quot;: &quot;49.5%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}, {&quot;Spread&quot;: -8.5, &quot;Prob&quot;: &quot;46.9%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 MIL (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-gold me-1\&quot;>Strat3:大分差(21%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;badge badge-diamond me-1\&quot;>💎Strat7:深盤受讓(31%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 77% 24/31)</span>&quot;}, {&quot;Spread&quot;: -7.5, &quot;Prob&quot;: &quot;48.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-gold me-1\&quot;>Strat3:大分差(21%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 4/7)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('MIL'); return false;">MIL</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('SAS'); return false;">SAS</a></td>
+            <td><span class="badge bg-light text-dark border">-6.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('MIL', 'SAS', '%5B%7B%22Spread%22%3A%20-6.5%2C%20%22Prob%22%3A%20%2249.5%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-8.5%2C%20%22Prob%22%3A%20%2246.9%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20MIL%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-gold%20me-1%5C%22%3EStrat3%3A%E5%A4%A7%E5%88%86%E5%B7%AE%2821%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-diamond%20me-1%5C%22%3E%F0%9F%92%8EStrat7%3A%E6%B7%B1%E7%9B%A4%E5%8F%97%E8%AE%93%2831%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2077%25%2024/31%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-7.5%2C%20%22Prob%22%3A%20%2248.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-gold%20me-1%5C%22%3EStrat3%3A%E5%A4%A7%E5%88%86%E5%B7%AE%2821%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%204/7%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">4 / 10</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="49.5%">
@@ -205,9 +171,9 @@
         
         <tr class="highlight-row">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('NYK'); return false;">NYK</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('GSW'); return false;">GSW</a></td>
-            <td><span class="badge bg-light text-dark border">-7.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('NYK', 'GSW', '[{&quot;Spread&quot;: -7.5, &quot;Prob&quot;: &quot;70.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 GSW (-7.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-gold me-1\&quot;>Strat3:大分差(21%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 72% 57/79)</span>&quot;}, {&quot;Spread&quot;: -8.5, &quot;Prob&quot;: &quot;70.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 GSW (-8.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-gold me-1\&quot;>Strat3:大分差(21%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 72% 57/79)</span>&quot;}, {&quot;Spread&quot;: -6.5, &quot;Prob&quot;: &quot;70.3%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 GSW (-6.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 42% 11/26)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('NYK'); return false;">NYK</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('GSW'); return false;">GSW</a></td>
+            <td><span class="badge bg-light text-dark border">-7.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('NYK', 'GSW', '%5B%7B%22Spread%22%3A%20-7.5%2C%20%22Prob%22%3A%20%2270.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20GSW%20%28-7.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-gold%20me-1%5C%22%3EStrat3%3A%E5%A4%A7%E5%88%86%E5%B7%AE%2821%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2072%25%2057/79%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-8.5%2C%20%22Prob%22%3A%20%2270.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20GSW%20%28-8.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-gold%20me-1%5C%22%3EStrat3%3A%E5%A4%A7%E5%88%86%E5%B7%AE%2821%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2072%25%2057/79%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-6.5%2C%20%22Prob%22%3A%20%2270.3%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20GSW%20%28-6.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2042%25%2011/26%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">0 / 7</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="70.4%">
@@ -221,9 +187,9 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('OKC'); return false;">OKC</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('HOU'); return false;">HOU</a></td>
-            <td><span class="badge bg-light text-dark border">5.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('OKC', 'HOU', '[{&quot;Spread&quot;: 5.5, &quot;Prob&quot;: &quot;54.7%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 HOU (5.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}, {&quot;Spread&quot;: 3.5, &quot;Prob&quot;: &quot;55.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 HOU (3.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 53% 31/58)</span>&quot;}, {&quot;Spread&quot;: 4.5, &quot;Prob&quot;: &quot;55.0%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 HOU (4.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-success me-1\&quot;>Strat6:受讓方(13%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 57% 26/46)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('OKC'); return false;">OKC</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('HOU'); return false;">HOU</a></td>
+            <td><span class="badge bg-light text-dark border">5.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('OKC', 'HOU', '%5B%7B%22Spread%22%3A%205.5%2C%20%22Prob%22%3A%20%2254.7%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20HOU%20%285.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%203.5%2C%20%22Prob%22%3A%20%2255.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20HOU%20%283.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2053%25%2031/58%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%204.5%2C%20%22Prob%22%3A%20%2255.0%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20HOU%20%284.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-success%20me-1%5C%22%3EStrat6%3A%E5%8F%97%E8%AE%93%E6%96%B9%2813%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2057%25%2026/46%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">12 / 11</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="54.7%">
@@ -237,9 +203,9 @@
         
         <tr class="highlight-row">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('PHO'); return false;">PHO</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('DET'); return false;">DET</a></td>
-            <td><span class="badge bg-light text-dark border">-5.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('PHO', 'DET', '[{&quot;Spread&quot;: -5.5, &quot;Prob&quot;: &quot;69.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 DET (-5.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 42% 11/26)</span>&quot;}, {&quot;Spread&quot;: -7.5, &quot;Prob&quot;: &quot;74.4%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 DET (-7.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-gold me-1\&quot;>Strat3:大分差(21%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;text-success fw-bold ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 72% 57/79)</span>&quot;}, {&quot;Spread&quot;: -6.5, &quot;Prob&quot;: &quot;72.9%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>主隊 DET (-6.5)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-primary me-1\&quot;>Strat1:信心>60%(14%)</span><span class=\&quot;badge badge-info me-1\&quot;>Strat2:信心>65%(19%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 42% 11/26)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('PHO'); return false;">PHO</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('DET'); return false;">DET</a></td>
+            <td><span class="badge bg-light text-dark border">-5.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('PHO', 'DET', '%5B%7B%22Spread%22%3A%20-5.5%2C%20%22Prob%22%3A%20%2269.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20DET%20%28-5.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2042%25%2011/26%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-7.5%2C%20%22Prob%22%3A%20%2274.4%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20DET%20%28-7.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-gold%20me-1%5C%22%3EStrat3%3A%E5%A4%A7%E5%88%86%E5%B7%AE%2821%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-success%20fw-bold%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2072%25%2057/79%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%20-6.5%2C%20%22Prob%22%3A%20%2272.9%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E4%B8%BB%E9%9A%8A%20DET%20%28-6.5%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-primary%20me-1%5C%22%3EStrat1%3A%E4%BF%A1%E5%BF%83%3E60%25%2814%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-info%20me-1%5C%22%3EStrat2%3A%E4%BF%A1%E5%BF%83%3E65%25%2819%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2042%25%2011/26%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">18 / 0</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="69.4%">
@@ -253,9 +219,9 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-15</td>
-            <td><a href="#" class="team-link" onclick="showTeam('UTA'); return false;">UTA</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('DAL'); return false;">DAL</a></td>
-            <td><span class="badge bg-light text-dark border">1.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('UTA', 'DAL', '[{&quot;Spread&quot;: 1.5, &quot;Prob&quot;: &quot;48.2%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;badge badge-danger me-1\&quot;>❌Strat8:淺盤讓分(-4%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 52% 33/63)</span>&quot;}, {&quot;Spread&quot;: 0.5, &quot;Prob&quot;: &quot;47.7%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-muted small\&quot;>⏸️ 觀望</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;badge badge-danger me-1\&quot;>❌Strat8:淺盤讓分(-4%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 52% 33/63)</span>&quot;}, {&quot;Spread&quot;: 2.5, &quot;Prob&quot;: &quot;45.5%&quot;, &quot;Rec&quot;: &quot;<span class=\&quot;text-success fw-bold\&quot;><i class=\&quot;fas fa-check-circle me-1\&quot;></i>客隊 UTA (受讓)</span>&quot;, &quot;Tags&quot;: &quot;<span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat4:小分差(-0.3%)</span><span class=\&quot;badge badge-danger me-1\&quot;>⚠️Strat5:讓分方(-0.2%)</span><span class=\&quot;badge badge-danger me-1\&quot;>❌Strat8:淺盤讓分(-4%)</span><span class=\&quot;text-muted ms-2 small\&quot; title=\&quot;歷史同組合戰績\&quot;>(歷史: 52% 33/63)</span>&quot;}]'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('UTA'); return false;">UTA</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('DAL'); return false;">DAL</a></td>
+            <td><span class="badge bg-light text-dark border">1.5</span><span class="badge bg-primary ms-2 cursor-pointer" onclick="showGameDetails('UTA', 'DAL', '%5B%7B%22Spread%22%3A%201.5%2C%20%22Prob%22%3A%20%2248.2%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9D%8CStrat8%3A%E6%B7%BA%E7%9B%A4%E8%AE%93%E5%88%86%28-4%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2052%25%2033/63%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%200.5%2C%20%22Prob%22%3A%20%2247.7%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-muted%20small%5C%22%3E%E2%8F%B8%EF%B8%8F%20%E8%A7%80%E6%9C%9B%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9D%8CStrat8%3A%E6%B7%BA%E7%9B%A4%E8%AE%93%E5%88%86%28-4%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2052%25%2033/63%29%3C/span%3E%22%7D%2C%20%7B%22Spread%22%3A%202.5%2C%20%22Prob%22%3A%20%2245.5%25%22%2C%20%22Rec%22%3A%20%22%3Cspan%20class%3D%5C%22text-success%20fw-bold%5C%22%3E%3Ci%20class%3D%5C%22fas%20fa-check-circle%20me-1%5C%22%3E%3C/i%3E%E5%AE%A2%E9%9A%8A%20UTA%20%28%E5%8F%97%E8%AE%93%29%3C/span%3E%22%2C%20%22Tags%22%3A%20%22%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat4%3A%E5%B0%8F%E5%88%86%E5%B7%AE%28-0.3%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9A%A0%EF%B8%8FStrat5%3A%E8%AE%93%E5%88%86%E6%96%B9%28-0.2%25%29%3C/span%3E%3Cspan%20class%3D%5C%22badge%20badge-danger%20me-1%5C%22%3E%E2%9D%8CStrat8%3A%E6%B7%BA%E7%9B%A4%E8%AE%93%E5%88%86%28-4%25%29%3C/span%3E%3Cspan%20class%3D%5C%22text-muted%20ms-2%20small%5C%22%20title%3D%5C%22%E6%AD%B7%E5%8F%B2%E5%90%8C%E7%B5%84%E5%90%88%E6%88%B0%E7%B8%BE%5C%22%3E%28%E6%AD%B7%E5%8F%B2%3A%2052%25%2033/63%29%3C/span%3E%22%7D%5D'); return false;" title="點擊查看所有盤口分析"><i class="fas fa-list-ul me-1"></i>+3 盤口</span></td>
             <td class="small text-muted">15 / 23</td>
             <td>
                 <div class="progress" style="height: 6px; width: 50px;" title="48.2%">
@@ -274,21 +240,13 @@
 
         <div class="accordion" id="histAccordion">
             <div class="accordion-item border-0 shadow-sm rounded">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-bold text-secondary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHist">
-                        <i class="fas fa-history me-2"></i> 歷史預測回顧
-                    </button>
-                </h2>
+                <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold text-secondary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHist"><i class="fas fa-history me-2"></i> 歷史預測回顧</button></h2>
                 <div id="collapseHist" class="accordion-collapse collapse" data-bs-parent="#histAccordion">
-                    <div class="accordion-body p-0">
-                        <div class="table-responsive">
-                            <table class="table table-sm table-hover align-middle mb-0 w-100" id="histTable">
-                                <thead class="table-light"><tr><th>日期</th><th>客隊</th><th>主隊</th><th>盤口</th><th>缺席</th><th>主勝率</th><th>建議</th><th>標籤</th></tr></thead>
-                                <tbody>
+                    <div class="accordion-body p-0"><div class="table-responsive"><table class="table table-sm table-hover align-middle mb-0 w-100" id="histTable"><thead class="table-light"><tr><th>日期</th><th>客隊</th><th>主隊</th><th>盤口</th><th>缺席</th><th>主勝率</th><th>建議</th><th>標籤</th></tr></thead><tbody>
         <tr class="">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('BRK'); return false;">BRK</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('NOP'); return false;">NOP</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('BRK'); return false;">BRK</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('NOP'); return false;">NOP</a></td>
             <td><span class="badge bg-light text-dark border">-2.5</span></td>
             <td class="small text-muted">9 / 6</td>
             <td>
@@ -303,8 +261,8 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('CLE'); return false;">CLE</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('PHI'); return false;">PHI</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('CLE'); return false;">CLE</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('PHI'); return false;">PHI</a></td>
             <td><span class="badge bg-light text-dark border">-1.5</span></td>
             <td class="small text-muted">5 / 0</td>
             <td>
@@ -319,8 +277,8 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('DEN'); return false;">DEN</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('DAL'); return false;">DAL</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('DEN'); return false;">DEN</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('DAL'); return false;">DAL</a></td>
             <td><span class="badge bg-light text-dark border">-1.5</span></td>
             <td class="small text-muted">47 / 32</td>
             <td>
@@ -335,8 +293,8 @@
         
         <tr class="highlight-row">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('NYK'); return false;">NYK</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('SAC'); return false;">SAC</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('NYK'); return false;">NYK</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('SAC'); return false;">SAC</a></td>
             <td><span class="badge bg-light text-dark border">-11.5</span></td>
             <td class="small text-muted">7 / 26</td>
             <td>
@@ -351,8 +309,8 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('TOR'); return false;">TOR</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('IND'); return false;">IND</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('TOR'); return false;">TOR</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('IND'); return false;">IND</a></td>
             <td><span class="badge bg-light text-dark border">-2.5</span></td>
             <td class="small text-muted">27 / 27</td>
             <td>
@@ -367,8 +325,8 @@
         
         <tr class="">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('UTA'); return false;">UTA</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('CHI'); return false;">CHI</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('UTA'); return false;">UTA</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('CHI'); return false;">CHI</a></td>
             <td><span class="badge bg-light text-dark border">-2.5</span></td>
             <td class="small text-muted">22 / 16</td>
             <td>
@@ -383,8 +341,8 @@
         
         <tr class="highlight-row">
             <td class="small fw-bold text-muted">01-14</td>
-            <td><a href="#" class="team-link" onclick="showTeam('WAS'); return false;">WAS</a></td>
-            <td><a href="#" class="team-link" onclick="showTeam('LAC'); return false;">LAC</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('WAS'); return false;">WAS</a></td>
+            <td><a href="#" class="team-link" onclick="event.stopPropagation(); showTeam('LAC'); return false;">LAC</a></td>
             <td><span class="badge bg-light text-dark border">-12.5</span></td>
             <td class="small text-muted">22 / 17</td>
             <td>
@@ -396,10 +354,7 @@
             <td><span class="text-muted small">⏸️ 觀望</span></td>
             <td><span class="badge badge-gold me-1">Strat3:大分差(21%)</span><span class="badge badge-success me-1">Strat6:受讓方(13%)</span><span class="badge badge-diamond me-1">💎Strat7:深盤受讓(31%)</span><span class="text-success fw-bold ms-2 small" title="歷史同組合戰績">(歷史: 77% 24/31)</span></td>
         </tr>
-        </tbody>
-                            </table>
-                        </div>
-                    </div>
+        </tbody></table></div></div>
                 </div>
             </div>
         </div>
@@ -459,15 +414,8 @@
     <div class="modal fade" id="detailModal" tabindex="-1">
         <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
-                    <div><h5 class="modal-title fw-bold" id="dtTitle">策略詳情</h5><p class="mb-0 text-muted small">歷史交易回測紀錄</p></div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body p-0">
-                    <table id="dtTable" class="table table-striped table-hover w-100 mb-0" style="font-size:0.9rem;">
-                        <thead class="table-light sticky-top"></thead><tbody></tbody>
-                    </table>
-                </div>
+                <div class="modal-header"><div><h5 class="modal-title fw-bold" id="dtTitle">策略詳情</h5><p class="mb-0 text-muted small">歷史交易回測紀錄</p></div><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body p-0"><table id="dtTable" class="table table-striped table-hover w-100 mb-0" style="font-size:0.9rem;"><thead class="table-light sticky-top"></thead><tbody></tbody></table></div>
             </div>
         </div>
     </div>
@@ -476,12 +424,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header"><h5 class="modal-title fw-bold">策略排行榜</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body p-0">
-                    <table id="asTable" class="table table-striped table-hover w-100 mb-0">
-                        <thead class="table-light"><tr><th>策略名稱</th><th>場次</th><th>勝率</th><th>ROI</th></tr></thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
+                <div class="modal-body p-0"><table id="asTable" class="table table-striped table-hover w-100 mb-0"><thead class="table-light"><tr><th>策略名稱</th><th>場次</th><th>勝率</th><th>ROI</th></tr></thead><tbody></tbody></table></div>
             </div>
         </div>
     </div>
@@ -507,7 +450,8 @@
         });
 
         function showGameDetails(away, home, detailsJson) {
-            const details = JSON.parse(detailsJson);
+            // 🔥 修正：解碼 URL 編碼的 JSON
+            const details = JSON.parse(decodeURIComponent(detailsJson));
             $('#gdTitle').html(`${away} <span class="text-muted">vs</span> ${home} <span class="badge bg-primary ms-2">盤口詳細分析</span>`);
             let html = "";
             details.forEach(d => {
